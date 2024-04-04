@@ -1,4 +1,4 @@
-s// As we use FreeRTOS to implement the system and we semaphore to synchronize the tasks and LCD display
+// As we use FreeRTOS to implement the system and we semaphore to synchronize the tasks and LCD display
 // we need to include Arduino_FreeRTOS.h , semphr.h , and  LiquidCrystal.h libraries. 
 #include <Arduino_FreeRTOS.h>
 #include <semphr.h>
